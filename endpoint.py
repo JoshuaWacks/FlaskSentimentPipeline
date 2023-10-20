@@ -10,10 +10,12 @@ api = Api(app)
 # TODO: Some Ideas for improvemts
 # Allow for different models, based on different params
 # Return all model results based on params
-# Preprocessing, check for any unsafe words
+# Preprocessing
 
 # Would be cool to dockerize
 # Host endpoint on free hosting service or Azure?
+
+TODO: Bigram and Trigram tokenization in task2
 
 class endpoint(Resource):
 	def __init__(self):
