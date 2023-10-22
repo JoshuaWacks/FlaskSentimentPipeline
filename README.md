@@ -26,4 +26,4 @@
 
 ### Follow the steps below to run task2(The notebook should already show all the output)
 1. As task2 has a lot more dependencies, they are in a seperate requirements folder:
-	pip install -r requirementsTask1.txt
+	pip install -r requirementsTask2.txt
