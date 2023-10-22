@@ -24,6 +24,6 @@
 	- reason: If the input was not valid, why was it not, if it was it'll say "NA".
 	- sentiment: Which contains  both the label and the score or confidence in that label.
 
-### Follow the steps below to run task1(The notebook should already show all the output)
+### Follow the steps below to run task2(The notebook should already show all the output)
 1. As task2 has a lot more dependencies, they are in a seperate requirements folder:
 	pip install -r requirementsTask1.txt
