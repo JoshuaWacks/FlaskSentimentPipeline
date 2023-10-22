@@ -2,9 +2,9 @@
 
 ## This was run with python version 3.10.9
 
-### Follow the steps below to run both task1 and task2
+### Follow the steps below to run task1
 1. To ensure libraries are of their correct versions, first run the following command in the same folder as the files:
-	pip install -r requirements.txt
+	pip install -r requirementsTask1.txt
 2. To run the endpoint that will receive post requests, run the following command:
 	python endpoint.py
 3. After running the previous command, you should see the following output in the terminal:
@@ -24,3 +24,6 @@
 	- reason: If the input was not valid, why was it not, if it was it'll say "NA".
 	- sentiment: Which contains  both the label and the score or confidence in that label.
 
+### Follow the steps below to run task1(The notebook should already show all the output)
+1. As task2 has a lot more dependencies, they are in a seperate requirements folder:
+	pip install -r requirementsTask1.txt

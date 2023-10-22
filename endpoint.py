@@ -16,10 +16,6 @@ api = Api(app)
 # Allow for different models, based on different params
 # Return all model results based on params
 
-
-# Would be cool to dockerize
-# Host endpoint on free hosting service or Azure?
-
 # TODO: Bigram and Trigram tokenization in task2
 
 class endpoint(Resource):
