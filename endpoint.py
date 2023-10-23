@@ -12,12 +12,6 @@ from nltk.stem.wordnet import WordNetLemmatizer
 app = Flask(__name__) 
 api = Api(app)
 
-# TODO: Some Ideas for improvemts
-# Allow for different models, based on different params
-# Return all model results based on params
-
-# TODO: Bigram and Trigram tokenization in task2
-
 class endpoint(Resource):
 	def __init__(self):
 		self.classification = pipeline('sentiment-analysis',model="distilbert-base-uncased-finetuned-sst-2-english")
